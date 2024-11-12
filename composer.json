@@ -7,7 +7,8 @@
     "require": {
         "php": "^8.2",
         "laravel/framework": "^11.9",
-        "laravel/tinker": "^2.9"
+        "laravel/tinker": "^2.9",
+        "n1c/test-types-lib": "dev-main"
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",
@@ -66,5 +67,12 @@
         }
     },
     "minimum-stability": "stable",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "vcs",
+            "no-api": true,
+            "url": "git@github.com:n1c/test-types-lib.git"
+        }
+    ]
 }

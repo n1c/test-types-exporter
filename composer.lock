@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "589cc0f65c3aaa7d4e9024d545bc1974",
+    "content-hash": "497d1aeb7cb91f0611f83cdfa7af3f78",
     "packages": [
         {
             "name": "brick/math",
@@ -1927,6 +1927,35 @@
                 }
             ],
             "time": "2024-11-12T13:57:08+00:00"
+        },
+        {
+            "name": "n1c/test-types-lib",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:n1c/test-types-lib.git",
+                "reference": "909d778098c222fc9818cbc5c10694cb2f89a53c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/n1c/test-types-lib/zipball/909d778098c222fc9818cbc5c10694cb2f89a53c",
+                "reference": "909d778098c222fc9818cbc5c10694cb2f89a53c",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "n1c\\TestTypesLib\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Nic",
+                    "email": "hi@n1c.dev"
+                }
+            ],
+            "time": "2024-11-12T14:50:33+00:00"
         },
         {
             "name": "nesbot/carbon",
@@ -7834,7 +7863,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {},
+    "stability-flags": {
+        "n1c/test-types-lib": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
